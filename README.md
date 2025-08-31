@@ -12,17 +12,17 @@
 - โครงสร้างลิงก์แบบแฟลต เปิดได้ทั้งออฟไลน์และบน GitHub Pages
 
 ## โครงสร้างไฟล์
-index.html
-makha-bucha.html
-visakha-bucha.html
-asalha-puja.html
-khao-phansa.html
-ok-phansa.html
-timeline.html
-activities.html
-glossary.html
-faq.html
-links.html
-references.html
-assets/
-└─ style.css
+index.html  
+makha-bucha.html  
+visakha-bucha.html  
+asalha-puja.html  
+khao-phansa.html  
+ok-phansa.html  
+timeline.html  
+activities.html  
+glossary.html  
+faq.html  
+links.html  
+references.html  
+assets/  
+└─ style.css  
