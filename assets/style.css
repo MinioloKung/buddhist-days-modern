@@ -1,0 +1,14 @@
+body{font-family:'Noto Sans Thai',system-ui;background:#faf7f2;color:#2e2a27}
+.fw-bold{font-size: 1.5em;}
+h1,h2,h3,h4{font-family:'Maitree',serif}
+a{text-decoration:none}
+.card-img-top{height:200px; object-fit:cover}
+.section-title{font-weight:700;border-left:6px solid #d97706;padding-left:.6rem}
+.badge-pill{background:rgba(217,119,6,.12);color:#b45309;border-radius:999px;padding:.35rem .6rem;font-weight:600;font-size:.85rem}
+.hero{background:linear-gradient(160deg,#8b5e34 0,#b08968 45%,#e6ccb2 100%);color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.25)}
+.credit{font-size:.9rem}
+ul.checks{list-style:none;padding-left:0}
+ul.checks li{padding-left:1.6rem; position:relative; margin:.25rem 0}
+ul.checks li::before{content:"✓"; position:absolute; left:0; color:#b45309}
+kbd{background:#fff;border:1px solid #ddd;border-bottom-width:2px;border-radius:.375rem;padding:.15rem .35rem}
+.table-sm td, .table-sm th{padding:.4rem .5rem}

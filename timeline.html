@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="th">
+<head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>พุทธปฏิทิน — วันสำคัญทางพระพุทธศาสนา</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Maitree:wght@600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="assets/style.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" style="font-family:'Maitree',serif;">
+      <span class="fw-bold">พุทธปฏิทิน</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">วันสำคัญ</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="makha-bucha.html">มาฆบูชา</a></li>
+            <li><a class="dropdown-item" href="visakha-bucha.html">วิสาขบูชา</a></li>
+            <li><a class="dropdown-item" href="asalha-puja.html">อาสาฬหบูชา</a></li>
+            <li><a class="dropdown-item" href="khao-phansa.html">เข้าพรรษา</a></li>
+            <li><a class="dropdown-item" href="ok-phansa.html">ออกพรรษา</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="timeline.html">ปฏิทินโดยสังเขป</a></li>
+        <li class="nav-item"><a class="nav-link" href="glossary.html">อภิธานศัพท์</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="links.html">ลิงก์</a></li>
+        <li class="nav-item"><a class="nav-link" href="references.html">แหล่งอ้างอิง</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-5 mt-2">
+  <h1 class="h4 mb-3" style="font-family:'Maitree',serif;">ปฏิทินโดยสังเขป</h1>
+  <p class="text-muted">ช่วงเวลาตามจันทรคติไทย (อาจเหลื่อมปี/เดือนตามอธิกมาส)</p>
+  <table class="table table-sm table-striped bg-white">
+    <thead><tr><th>วันสำคัญ</th><th>จันทรคติ (โดยทั่วไป)</th><th>ช่วงเดือนสากลโดยประมาณ</th></tr></thead>
+    <tbody>
+      <tr><td>มาฆบูชา</td><td>วันเพ็ญ เดือน 3 (หรือ 4 ในปีอธิกมาส)</td><td>ก.พ.–มี.ค.</td></tr>
+      <tr><td>วิสาขบูชา</td><td>วันเพ็ญ เดือน 6 (หรือ 7 ในปีอธิกมาส)</td><td>พ.ค.–มิ.ย.</td></tr>
+      <tr><td>อาสาฬหบูชา</td><td>วันเพ็ญ เดือน 8 (หรือ 9 ในปีอธิกมาส)</td><td>ก.ค.–ส.ค.</td></tr>
+      <tr><td>เข้าพรรษา</td><td>แรม 1 ค่ำ เดือน 8 (หรือ 9)</td><td>ก.ค.–ส.ค.</td></tr>
+      <tr><td>ออกพรรษา</td><td>วันเพ็ญ เดือน 11</td><td>ต.ค.</td></tr>
+    </tbody>
+  </table>
+  <div class="alert alert-info small">ข้อแนะนำ: ตรวจสอบประกาศอย่างเป็นทางการของหน่วยงานรัฐ/สำนักพุทธฯ ทุกปีเพื่อวันที่แน่นอน</div>
+</main>
+<footer class="py-4 mt-5 bg-light border-top">
+  <div class="container small text-muted d-flex flex-column flex-md-row align-items-md-center gap-2 justify-content-between">
+    <div>© <span id="year"></span> เว็บไซต์วันสำคัญทางพระพุทธศาสนา — เพื่อการศึกษา</div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+
+</body></html>
