@@ -12,3 +12,10 @@ ul.checks li{padding-left:1.6rem; position:relative; margin:.25rem 0}
 ul.checks li::before{content:"✓"; position:absolute; left:0; color:#b45309}
 kbd{background:#fff;border:1px solid #ddd;border-bottom-width:2px;border-radius:.375rem;padding:.15rem .35rem}
 .table-sm td, .table-sm th{padding:.4rem .5rem}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main { flex: 1 0 auto; }  /* เนื้อหาดันเต็มพื้นที่ที่เหลือ */
+footer { margin-top: auto; } /* ดัน footer ลงล่าง */
